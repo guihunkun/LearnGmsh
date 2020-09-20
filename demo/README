@@ -3,3 +3,6 @@ g++ *.cpp -std=c++11 -Iinclude -lgmsh -o exe
 
 ./exe
 
+demo.cpp        : a test case
+oneDExample.cpp : get a one-dimensional grid(Segment)
+twoDExample.cpp : get a two-dimensional grid(Triangle)
